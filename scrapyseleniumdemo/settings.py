@@ -50,6 +50,7 @@ ROBOTSTXT_OBEY = False
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
+# 开启DOWNLOADER_MIDDLEWARES
 DOWNLOADER_MIDDLEWARES = {
     'gerapy_selenium.downloadermiddlewares.SeleniumMiddleware': 543,
 }
